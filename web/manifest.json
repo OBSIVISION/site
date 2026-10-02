@@ -1,12 +1,11 @@
 {
-    "name": "obsivision",
-    "short_name": "obsivision",
+    "name": "OBSIVISION",
+    "short_name": "OBSIVISION",
     "start_url": ".",
     "display": "standalone",
-    "background_color": "#0175C2",
-    "theme_color": "#0175C2",
-    "description": "A new Flutter project.",
-    "orientation": "portrait-primary",
+    "background_color": "#080F19",
+    "theme_color": "#080F19",
+    "description": "OBSIVISION Tech Foundry.",
     "prefer_related_applications": false,
     "icons": [
         {

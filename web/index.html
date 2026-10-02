@@ -1,59 +1,45 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <!--
-    If you are serving your web app in a path other than the root, change the
-    href value below to reflect the base path you are serving from.
-
-    The path provided below has to start and end with a slash "/" in order for
-    it to work correctly.
-
-    For more details:
-    * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
-
-    This is a placeholder for base href that will be replaced by the value of
-    the `--base-href` argument provided to `flutter build`.
-  -->
   <base href="$FLUTTER_BASE_HREF">
 
   <meta charset="UTF-8">
   <meta content="IE=Edge" http-equiv="X-UA-Compatible">
-  <meta name="description" content="A new Flutter project.">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <!-- iOS meta tags & icons -->
-  <meta name="apple-mobile-web-app-capable" content="yes">
+  <title>OBSIVISION — Tech Foundry</title>
+  <meta name="description" content="OBSIVISION Tech Foundry. Imagine. Design. Develop. To see a little further, and build a little truer.">
+  <meta name="theme-color" content="#080F19">
+
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="OBSIVISION">
+  <meta property="og:title" content="OBSIVISION — Tech Foundry">
+  <meta property="og:description" content="Imagine. Design. Develop.">
+  <meta name="twitter:card" content="summary">
+
+  <meta name="mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
-  <meta name="apple-mobile-web-app-title" content="obsivision">
+  <meta name="apple-mobile-web-app-title" content="OBSIVISION">
   <link rel="apple-touch-icon" href="icons/Icon-192.png">
-
-  <!-- Favicon -->
   <link rel="icon" type="image/png" href="favicon.png"/>
-
-  <title>obsivision</title>
   <link rel="manifest" href="manifest.json">
 
-  <script>
-    // The value below is injected by flutter build, do not touch.
-    const serviceWorkerVersion = null;
-  </script>
-  <!-- This script adds the flutter initialization JS code -->
-  <script src="flutter.js" defer></script>
+  <style>
+    html, body { margin: 0; height: 100%; background: #080F19; }
+  </style>
 </head>
 <body>
-  <script>
-    window.addEventListener('load', function(ev) {
-      // Download main.dart.js
-      _flutter.loader.loadEntrypoint({
-        serviceWorker: {
-          serviceWorkerVersion: serviceWorkerVersion,
-        },
-        onEntrypointLoaded: function(engineInitializer) {
-          engineInitializer.initializeEngine().then(function(appRunner) {
-            appRunner.runApp();
-          });
-        }
-      });
-    });
-  </script>
+  <!-- The page renders to canvas; this copy is what crawlers and
+       script-less readers get. Keep it in step with lib/src/copy.dart. -->
+  <noscript>
+    <main style="color:#F1FAEE;font-family:sans-serif;max-width:836px;margin:0 auto;padding:48px 24px">
+      <h1>OBSIVISION</h1>
+      <p>TECH FOUNDRY</p>
+      <p>IMAGINE. DESIGN. DEVELOP.</p>
+      <p>Most things worth building are invisible at first. A habit of thought. A way of looking. The patience to stay with a problem until it gives up its shape.<br>To create is, in the end, to discover. Every idea given form reveals something that was always there, waiting to be seen — and slips, each time, a little further past the limits of matter. Engineering, done honestly, is an art like any other. There is also a quiet kind of ambition that does not announce itself. It reads widely, thinks slowly, and builds with the long view in mind, knowing that clarity is rarely given and almost always earned.</p>
+      <p>Every true work asks something of its maker — the readiness to be consumed by it, at least for a while. Difficulty, it turns out, is not the enemy of clarity. It is often where clarity begins. To see a little further, and build a little truer — that is the whole of the vision.</p>
+    </main>
+  </noscript>
+  <script src="flutter_bootstrap.js" async></script>
 </body>
 </html>
